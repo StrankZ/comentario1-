@@ -1,0 +1,86 @@
+body {
+  background-color: rgba(120, 178, 211, 0.684);
+}
+hr {
+  height: 4px;
+  width: 60%;
+  background-color: #c95f0e;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  color: #c95f0e;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-size: 45px;
+  text-align: center;
+  color: #c95f0e;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  text-align: right;
+  
+}
+.container {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-justify: auto;
+
+}
+.titulos {
+  font-size: 50px;
+  padding: 5px;
+  width: 70%;
+  color: #a04907;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.textos {
+  font-size: 32px;
+  padding: 10px;
+  width: 68%;
+  text-align: justify;
+  text-justify: auto;  
+}
+
+.referencias {
+  font-size: 30px;
+  width: 70%;
+  color: #a04907;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-track {
+  background-color: rgb(144, 131, 131);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #c95f0e;
+  
+}
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 5px;
+  background-color: red;
+  transition: width 0.3s ease-in-out;
+  z-index: 9999;
+}
